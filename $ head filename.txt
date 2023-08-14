@@ -1,0 +1,57 @@
+$ head filename
+ it prints  10 lines from the top of the file
+
+ seq - print a sequence of numbers
+
+can also retreive specific line number from the file
+
+$head -n 5 filename
+$head -n 20 filename
+
+$tail filename
+$tail -n 20 filename
+ 
+
+grouping of one more commands:
+_________________________________
+
+cmd1;cmd2;cmd3;cmdn
+
+$wc filename
+$ wc -l filename
+$wc -w filename
+$wc -c filename
+l-lines
+w--words
+c-characters
+$wc -lw filename
+$wc -lc filename
+$wc -wc filename
+
+editors in linux server environment:
+______________________________________
+
+
+
+vi ,vim,nano....
+
+diff command is used to compare line by line from the files
+
+$diff file1 file2
+
+cut -d: -f1,3 /etc/passwd
+
+cut -d: -f1 /etc/passwd
+cut -d: -f1-4 /etc/passwd
+
+
+
+wha tis device driver
+why we need device driver
+
+sudo yum install -y lshw
+
+$lshw
+or
+$lshw -short
+$lscpu
